@@ -1,5 +1,4 @@
 import { Image } from "@nextui-org/react";
-import Link from "next/link";
 
 
 export const SocialmediaSection = () => {
@@ -43,26 +42,20 @@ export const SocialmediaSection = () => {
                         <div className=" lg:col-span-2 lg:mx-16 ">
 
                             <div class="grid grid-cols-2 row-gap-2 md:grid-cols-4">
-                                <Link href="https://instagram/starlipage">
-                                    <div class="text-center md:border-r">
-                                        <Image alt="instagram" src="./images/instagram.svg" className="w-[60%] ml-2 md:w-[50%] md:mx-auto" />
-                                    </div>
-                                </Link>
-                                <Link href="https://twitter.com/starlipage">
-                                    <div class="text-center md:border-r">
-                                        <Image alt="twitter" src="./images/twitter.svg" className="w-[60%] -ml-1 md:w-[50%] md:mx-auto" />
-                                    </div>
-                                </Link>
+                                <div class="text-center md:border-r">
+                                    <Image alt="instagram" src="./images/instagram.svg" className="w-[60%] ml-2 md:w-[50%] md:mx-auto" />
+                                </div>
+                                <div class="text-center md:border-r">
+                                    <Image alt="twitter" src="./images/twitter.svg" className="w-[60%] -ml-1 md:w-[50%] md:mx-auto" />
+                                </div>
                                 <div class="text-center md:border-r">
                                     <Image alt="discord" src="./images/discord.svg" className="w-[60%] ml-2 md:w-[50%] md:mx-auto mt-7 lg:mt-7 md:mt-4" />
                                 </div>
-                                <Link href="https://t.me/starlipage">
-                                    <div class="text-center flex items-center md:ml-8 mt-5 md:mt-0 -ml-1 ">
-                                        <svg className="w-6" width="36" height="36" viewBox="0 0 1.08 1.08" xmlns="http://www.w3.org/2000/svg" fill="#0088CC"><path d="M.725.418C.75.393.775.335.671.406a17.811 17.811 0 0 1-.292.197.121.121 0 0 1-.095.002L.149.562S.099.531.184.498L.666.299.875.212S.95.183.943.253C.941.282.924.384.908.493L.856.818S.852.866.817.874A.17.17 0 0 1 .714.837C.706.831.559.738.505.692A.039.039 0 0 1 .507.626 7.619 7.619 0 0 0 .725.419Z" /></svg>
-                                        <h6 class="text-md font-bold lg:text-2xl text-[#0088CC] ml-2 ">Telegram</h6>
+                                <div class="text-center flex items-center md:ml-8 mt-5 md:mt-0 -ml-1 ">
+                                    <svg className="w-6" width="36" height="36" viewBox="0 0 1.08 1.08" xmlns="http://www.w3.org/2000/svg" fill="#0088CC"><path d="M.725.418C.75.393.775.335.671.406a17.811 17.811 0 0 1-.292.197.121.121 0 0 1-.095.002L.149.562S.099.531.184.498L.666.299.875.212S.95.183.943.253C.941.282.924.384.908.493L.856.818S.852.866.817.874A.17.17 0 0 1 .714.837C.706.831.559.738.505.692A.039.039 0 0 1 .507.626 7.619 7.619 0 0 0 .725.419Z" /></svg>
+                                    <h6 class="text-md font-bold lg:text-2xl text-[#0088CC] ml-2 ">Telegram</h6>
 
-                                    </div>
-                                </Link>
+                                </div>
                             </div>
 
                         </div>

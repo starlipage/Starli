@@ -20,6 +20,7 @@ const SidSection = () => {
 
 
                             <div class=" lg:relative hidden lg:block w-56  pt-4 overflow-hidden bg-[#0f0f0f]  border  border-[#2C3333]  shadow-lg rounded-2xl -mx-8  ">
+                                {/* <img alt="moto" src="/images/object/1.png" class="absolute w-40 h-40 mb-4 -right-20 -bottom-8" /> */}
                                 <div class="w-full">
                                     <div className='flex items-center justify-between'>
                                         <p class="mb-2 text-lg font-semiBold text-gray-400 ikaros pl-2 pb-2">
