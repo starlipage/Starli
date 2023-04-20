@@ -58,7 +58,10 @@ body{
 
 
 
-
+@font-face {
+  font-family: "Arkhip";
+  src: url('../public/fonts/Arkhip-Regular.ttf');
+}
 
 @font-face {
   font-family: 'Arkhip';
